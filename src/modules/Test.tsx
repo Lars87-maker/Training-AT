@@ -52,9 +52,16 @@ function Section({title, children}:{title:string; children:React.ReactNode}){
   return <div className="card p-3 flex flex-col gap-2">{children}</div>
 }
 
-function PassChip({ok}:{ok:boolean}){
-  return <span className={\`chip \${ok ? 'bg-emerald-500/15 text-emerald-600' : 'bg-amber-500/15 text-amber-700'}\`}>{ok ? '✓ gehaald' : 'nog niet'}</span>
+function PassChip({ ok }: { ok: boolean }) {
+  return (
+    <span
+      className={`chip ${ok ? 'bg-emerald-500/15 text-emerald-600' : 'bg-amber-500/15 text-amber-700'}`}
+    >
+      {ok ? '✓ gehaald' : 'nog niet'}
+    </span>
+  );
 }
+
 
 function RepsInTimeRow({ item }: { item: RepsInTime }){
   const [reps, setReps] = useState<number>(Number(localStorage.getItem(\`test:\${item.id}:reps\`) || 0))
