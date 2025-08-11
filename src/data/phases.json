@@ -1,0 +1,281 @@
+{
+  "fase1": {
+    "days": [
+      {
+        "id": "d1",
+        "title": "Dag 1 \u2013 Bovenlichaam Kracht",
+        "items": [
+          {
+            "id": "1",
+            "type": "check",
+            "label": "Pull-ups \u2013 3\u00d78\u201310"
+          },
+          {
+            "id": "2",
+            "type": "check",
+            "label": "Push-ups \u2013 3\u00d710\u201312"
+          },
+          {
+            "id": "3",
+            "type": "check",
+            "label": "Dumbbell shoulder press \u2013 3\u00d710\u201312"
+          },
+          {
+            "id": "4",
+            "type": "check",
+            "label": "Cable/elastic row \u2013 3\u00d712\u201315"
+          },
+          {
+            "id": "5",
+            "type": "check",
+            "label": "Plank \u2013 3\u00d730\u201345 sec"
+          }
+        ]
+      },
+      {
+        "id": "d2",
+        "title": "Dag 2 \u2013 Conditie: Interval + Duur",
+        "items": [
+          {
+            "id": "1",
+            "type": "check",
+            "label": "Warming-up: 10 min easy jog"
+          },
+          {
+            "id": "2",
+            "type": "check",
+            "label": "Harde intervallen: 6\u00d7400 m (90 s rust)"
+          },
+          {
+            "id": "3",
+            "type": "check",
+            "label": "Duurloop: 20 min rustig"
+          },
+          {
+            "id": "4",
+            "type": "check",
+            "label": "Cooling-down + mobiliteit: 5\u201310 min"
+          }
+        ]
+      },
+      {
+        "id": "d3",
+        "title": "Dag 3 \u2013 Onderlichaam + Core",
+        "items": [
+          {
+            "id": "1",
+            "type": "check",
+            "label": "Squats (BW of licht) \u2013 3\u00d712\u201315"
+          },
+          {
+            "id": "2",
+            "type": "check",
+            "label": "Lunges \u2013 3\u00d710 p/been"
+          },
+          {
+            "id": "3",
+            "type": "check",
+            "label": "Hip bridge \u2013 3\u00d712\u201315"
+          },
+          {
+            "id": "4",
+            "type": "check",
+            "label": "Core circuit (plank/side plank) \u2013 3 ronden"
+          }
+        ]
+      },
+      {
+        "id": "d4",
+        "title": "Dag 4 \u2013 Conditie: Korte Intervallen",
+        "items": [
+          {
+            "id": "1",
+            "type": "check",
+            "label": "Warming-up: 10 min easy jog + drills"
+          },
+          {
+            "id": "2",
+            "type": "check",
+            "label": "Korte intervallen: 10\u00d7200 m (60 s rust)"
+          },
+          {
+            "id": "3",
+            "type": "check",
+            "label": "Techniek: rope/pull-up regressies \u2013 10 min"
+          },
+          {
+            "id": "4",
+            "type": "check",
+            "label": "Cooling-down + rekken: 5\u201310 min"
+          }
+        ]
+      }
+    ]
+  },
+  "fase2": {
+    "days": [
+      {
+        "id": "d1",
+        "title": "Dag 1 \u2013 Bovenlichaam Kracht (zwaarder)",
+        "items": [
+          {
+            "id": "1",
+            "type": "check",
+            "label": "Pull-ups \u2013 4\u00d76\u20138"
+          },
+          {
+            "id": "2",
+            "type": "check",
+            "label": "Push-ups \u2013 4\u00d712\u201315"
+          },
+          {
+            "id": "3",
+            "type": "check",
+            "label": "Row variatie \u2013 4\u00d710\u201312"
+          },
+          {
+            "id": "4",
+            "type": "check",
+            "label": "Core \u2013 3 ronden"
+          }
+        ]
+      },
+      {
+        "id": "d2",
+        "title": "Dag 2 \u2013 Interval (400\u2013800 m)",
+        "items": [
+          {
+            "id": "1",
+            "type": "check",
+            "label": "Warming-up 12 min"
+          },
+          {
+            "id": "2",
+            "type": "check",
+            "label": "Intervallen: 4\u00d7800 m (2\u20133 min rust)"
+          },
+          {
+            "id": "3",
+            "type": "check",
+            "label": "Cooling-down 10 min"
+          }
+        ]
+      },
+      {
+        "id": "d3",
+        "title": "Dag 3 \u2013 Onderlichaam + Core",
+        "items": [
+          {
+            "id": "1",
+            "type": "check",
+            "label": "Split squat \u2013 4\u00d78 p/been"
+          },
+          {
+            "id": "2",
+            "type": "check",
+            "label": "Romanian deadlift \u2013 4\u00d78\u201310"
+          },
+          {
+            "id": "3",
+            "type": "check",
+            "label": "Core circuit \u2013 3 ronden"
+          }
+        ]
+      },
+      {
+        "id": "d4",
+        "title": "Dag 4 \u2013 Duur + Strides",
+        "items": [
+          {
+            "id": "1",
+            "type": "check",
+            "label": "Duurloop 30\u201340 min"
+          },
+          {
+            "id": "2",
+            "type": "check",
+            "label": "6\u00d7100 m strides"
+          },
+          {
+            "id": "3",
+            "type": "check",
+            "label": "Rekken/mobiliteit 10 min"
+          }
+        ]
+      }
+    ]
+  },
+  "fase3": {
+    "days": [
+      {
+        "id": "d1",
+        "title": "Dag 1 \u2013 Combinatiekracht",
+        "items": [
+          {
+            "id": "1",
+            "type": "check",
+            "label": "Pull-ups \u2013 5\u00d75"
+          },
+          {
+            "id": "2",
+            "type": "check",
+            "label": "Push-ups \u2013 testset max"
+          },
+          {
+            "id": "3",
+            "type": "check",
+            "label": "Farmer carry / core \u2013 3 ronden"
+          }
+        ]
+      },
+      {
+        "id": "d2",
+        "title": "Dag 2 \u2013 Snelheid (sprints)",
+        "items": [
+          {
+            "id": "1",
+            "type": "check",
+            "label": "8\u00d760 m sprint (wandelen terug)"
+          },
+          {
+            "id": "2",
+            "type": "check",
+            "label": "Agility / heuvels \u2013 10 min"
+          }
+        ]
+      },
+      {
+        "id": "d3",
+        "title": "Dag 3 \u2013 Onderlichaam + Rope",
+        "items": [
+          {
+            "id": "1",
+            "type": "check",
+            "label": "Lunges \u2013 4\u00d710 p/been"
+          },
+          {
+            "id": "2",
+            "type": "check",
+            "label": "Rope climb practice \u2013 10 min"
+          }
+        ]
+      },
+      {
+        "id": "d4",
+        "title": "Dag 4 \u2013 Cooper voorbereiding",
+        "items": [
+          {
+            "id": "1",
+            "type": "check",
+            "label": "12-minuten test / tempo run"
+          },
+          {
+            "id": "2",
+            "type": "check",
+            "label": "Cooling-down + rekken"
+          }
+        ]
+      }
+    ]
+  }
+}
