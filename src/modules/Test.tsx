@@ -1,5 +1,4 @@
-# Overschrijf src/modules/Test.tsx met een backtick-vrije versie
-cat > src/modules/Test.tsx <<'TSX'
+// src/modules/Test.tsx
 import { useState } from 'react'
 import RestTimer from '../widgets/RestTimer'
 import Stopwatch from '../widgets/Stopwatch'
@@ -209,9 +208,3 @@ function CooperRow({ item }: { item: Cooper }){
     </Section>
   )
 }
-TSX
-
-# commit & push
-git add src/modules/Test.tsx
-git commit -m "Fix: remove template literals in Test.tsx to satisfy esbuild"
-git push
