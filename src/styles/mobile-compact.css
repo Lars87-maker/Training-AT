@@ -1,0 +1,25 @@
+/* src/styles/mobile-compact.css — compact mobile layout + floating timer space */
+@media (max-width: 420px) {
+  :root { --space: 10px; --radius: 12px; }
+  .container, .page, .card { padding: var(--space); }
+  .card { border-radius: var(--radius); }
+  h1, .h1 { font-size: 1.125rem; margin: 0 0 8px; }
+  h2, .h2 { font-size: 1rem; margin: 10px 0 6px; }
+  .exercise-row { display: grid; grid-template-columns: 24px 1fr auto; align-items: start; gap: 8px; padding: 8px 0; }
+  .exercise-row .title { line-height: 1.25; font-size: .95rem; }
+  .exercise-row .actions { gap: 6px; }
+  .notes { min-height: 84px; font-size: .95rem; }
+  body.has-floating-timer { padding-bottom: 110px; }
+}
+.floating-timer {
+  position: fixed; left: 12px; right: 12px;
+  bottom: calc(12px + env(safe-area-inset-bottom));
+  z-index: 60; display: flex; justify-content: space-between; gap: 12px;
+  padding: 10px 12px; border-radius: 9999px;
+  background: #0f172a; color: #e5e7eb; border: 1px solid #1f2937;
+  box-shadow: 0 12px 28px rgba(0,0,0,.35);
+  font-variant-numeric: tabular-nums;
+}
+.floating-timer .pill { display: flex; align-items: center; gap: 8px; padding: 6px 10px; border-radius: 9999px; background: #111827; border: 1px solid #1f2937; }
+.floating-timer .label { opacity: .8; font-size: .85rem; }
+.floating-timer .time { font-weight: 600; letter-spacing: .2px; }
